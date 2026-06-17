@@ -1,0 +1,71 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:
+  linear-gradient(
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0.2)
+  ),
+  url(/images/background_login.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -2%;
+}
+
+.card {
+  background:rgba(55, 86, 47, 0.6);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  color: rgb(255, 255, 255);
+  border: 2px solid #ffffff;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  padding: 0.75rem;
+  border-radius: 12px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.input:focus {
+  border-color: #6A951F;
+  box-shadow:  0 0 5px rgba(133, 231, 190, 0.3);
+}
+
+.button {
+  width: 100%;
+  background: #6A951F;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #fde681;
+}

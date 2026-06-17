@@ -1,0 +1,90 @@
+.container {
+  min-height: 100vh;
+  padding: 40px;
+  background-image:
+  linear-gradient(
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0.2)
+  ),
+  url(/images/background_clientes.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -2%;
+}
+
+.titulo {
+  margin-top: 1%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background:rgba(55, 86, 47, 0.6);;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border: 1px dashed #e5e7eb;
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.nome {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.botoes{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  gap: 30px;
+}
+
+.editar{
+  padding: 10px 20px;
+
+  background-color: #f5d95b;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.editar:hover{
+  background-color: #fae388;
+}
+
+.deletar{
+  padding: 10px 20px;
+
+  background-color: #d16d6d;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.deletar:hover{
+  background-color: #ca8585;
+}
